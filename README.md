@@ -1,5 +1,5 @@
 ## Probability distributions and calculations for Hake's ratio statistics in measuring effect size
-*data storage for a research paper with supplementary materials - software, notebooks*
+*a data storage for a research paper with supplementary materials - software, notebooks*
 
 by **Jozef Hanč, Martina Hančová, Dominik Borovský**  
 <jozef.hanc@upjs.sk>
