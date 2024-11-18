@@ -27,6 +27,8 @@ For interactive **executing** Jupyter notebooks as live documents without any ne
  
 All source code is distributed under [the MIT license](https://choosealicense.com/licenses/mit/).
 
+## Overview of Jupyter Notebook Contents
+
 ### Analytical Exploration and Real Data Applications (6 Notebooks)
 
 - Jupyter/1.1.HypergeometricFunctions.ipynb
