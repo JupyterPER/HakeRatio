@@ -53,7 +53,7 @@ The notebooks focus on interactive explorations of Hake ratio analytic forms and
 - Jupyter/3.3.MTB-HakeRatio-Example.ipynb
 - Jupyter/3.3.MTB-RatioCharFun-Examples.ipynb
 
-The notebooks present our explorations of proposed algorithms for ratio distributions, including the Hake ratio and other examples. Implementations span Python and MATLAB, showcasing built-in integrators, custom algorithms, and illustrative examples.
+The notebooks present our explorations of proposed algorithms for ratio distributions, including the Hake ratio and other examples. Implementations span Python and MATLAB (MTB), showcasing built-in integrators, custom algorithms, and illustrative examples.
 
 ---
 
