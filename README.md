@@ -45,14 +45,14 @@ The notebooks focus on interactive explorations of Hake ratio analytic forms and
 
 ### Algorithmic Explorations (8 Notebooks)
 
-- Jupyter/3.1.Python-HakeRatio-CharFun-Moments.ipynb
-- Jupyter/3.1.Python-Ratio-Mellin-DEChebyshev.ipynb
-- Jupyter/3.2.MTB-RatioCharFun-Algorithms-Builtin-Integrators.ipynb
-- Jupyter/3.2.MTB-RatioCharFun-Algorithms-IntSum.ipynb
-- Jupyter/3.2.Python-RatioCharFun-Algorithms.ipynb
-- Jupyter/3.3.MTB-2DCharFun-Example.ipynb
-- Jupyter/3.3.MTB-HakeRatio-Example.ipynb
-- Jupyter/3.3.MTB-RatioCharFun-Examples.ipynb
+- [Jupyter/3.1.Python-HakeRatio-CharFun-Moments.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.1.Python-HakeRatio-CharFun-Moments.ipynb)
+- [Jupyter/3.1.Python-Ratio-Mellin-DEChebyshev.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.1.Python-Ratio-Mellin-DEChebyshev.ipynb)
+- [Jupyter/3.2.MTB-RatioCharFun-Algorithms-Builtin-Integrators.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.MTB-RatioCharFun-Algorithms-Builtin-Integrators.ipynb)
+- [Jupyter/3.2.MTB-RatioCharFun-Algorithms-IntSum.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.MTB-RatioCharFun-Algorithms-IntSum.ipynb)
+- [Jupyter/3.2.Python-RatioCharFun-Algorithms.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.Python-RatioCharFun-Algorithms.ipynb)
+- [Jupyter/3.3.MTB-2DCharFun-Example.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-2DCharFun-Example.ipynb)
+- [Jupyter/3.3.MTB-HakeRatio-Example.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-HakeRatio-Example.ipynb)
+- [Jupyter/3.3.MTB-RatioCharFun-Examples.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-RatioCharFun-Examples.ipynb)
 
 The notebooks present our explorations of proposed algorithms for ratio distributions, including the Hake ratio and other examples. Implementations span Python and MATLAB (MTB), showcasing built-in integrators, custom algorithms, and illustrative examples.
 
@@ -60,12 +60,12 @@ The notebooks present our explorations of proposed algorithms for ratio distribu
 
 ### Numerical Study (6 Notebooks)
 
-- Jupyter/4.1.NumStudy1-Sage-ExactValuesSageQP.ipynb
-- Jupyter/4.1.NumStudy2A-MTB-BuiltCC-parallelCPU.ipynb
-- Jupyter/4.1.NumStudy2B-MTB-BuiltCC.ipynb
-- Jupyter/4.1.NumStudy2C-MTB-Built\_TRCC.ipynb
-- Jupyter/4.1.NumStudy3-Py-DE\_CC\_Analytic.ipynb
-- Jupyter/4.2.NumStudy-Summary.ipynb
+- [Jupyter/4.1.NumStudy1-Sage-ExactValuesSageQP.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy1-Sage-ExactValuesSageQP.ipynb)
+- [Jupyter/4.1.NumStudy2A-MTB-BuiltCC-parallelCPU.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy2A-MTB-BuiltCC-parallelCPU.ipynb)
+- [Jupyter/4.1.NumStudy2B-MTB-BuiltCC.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy2B-MTB-BuiltCC.ipynb)
+- [Jupyter/4.1.NumStudy2C-MTB-Built_TRCC.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy2C-MTB-Built_TRCC.ipynb)
+- [Jupyter/4.1.NumStudy3-Py-DE_CC_Analytic.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy3-Py-DE_CC_Analytic.ipynb)
+- [Jupyter/4.2.NumStudy-Summary.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.2.NumStudy-Summary.ipynb)
 
 The notebooks present a numerical study of proposed built-in and custom algorithms for Hake ratio distribution using MATLAB and Python. The Hake ratio also provides closed analytical forms of distribution functions to assess method accuracy in the numerical study.
 
@@ -73,9 +73,9 @@ The notebooks present a numerical study of proposed built-in and custom algorith
 
 ### Auxiliary Notebooks (3 notebooks)
 
-- Jupyter/HinkleyMarsaglia.ipynb
-- Jupyter/MTB-MeasuringRunTimes.ipynb
-- Jupyter/Python-HakeRatio-CharFun-Moments.ipynb
+- [Jupyter/HinkleyMarsaglia.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/HinkleyMarsaglia.ipynb)
+- [Jupyter/MTB-MeasuringRunTimes.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/MTB-MeasuringRunTimes.ipynb)
+- [Jupyter/Python-HakeRatio-CharFun-Moments.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/Python-HakeRatio-CharFun-Moments.ipynb)
 
 These notebooks are auxiliary and are used in previous notebooks to streamline calculations.
 
