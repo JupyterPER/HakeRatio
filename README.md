@@ -82,5 +82,5 @@ These notebooks are auxiliary and are used in previous notebooks to streamline c
 
 This work was supported by the Slovak Research and Development Agency under the Contract 
 No. APVV-21-0369, No. APVV-21-0216 and by the Slovak Scientific Grant Agency VEGA under grant VEGA 1/0585/24.
-We would also like to express our gratitude to Gabriel Semanišin from P.J. \v{S}af\'arik University, 
+We would also like to express our gratitude to Gabriel Semanišin from P.J. Šafárik University, 
 for providing us with a one-year university license for MATLAB R2024b.
