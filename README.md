@@ -14,7 +14,7 @@ These numerical explorations not only deepen the understanding of the Hake ratio
 
 ## Research paper 
 
-The paper was presented as a PROBASTAT 2024 conference paper and was submitted to [Statistical Papers](https://link.springer.com/journal/362). The modified (improved) pre-print is be available at <[https://arxiv.org/](https://arxiv.org/abs/2411.12938)>.
+The paper was presented as a PROBASTAT 2024 conference paper and was submitted to [Statistical Papers](https://link.springer.com/journal/362). The modified (improved) pre-print is be available at <[https://arxiv.org/abs/2411.12938](https://arxiv.org/abs/2411.12938)>.
 
 ## Software [![render in nbviewer](figures/nbviewer_badge.svg)](https://nbviewer.org/github/JupyterPER/HakeRatio/tree/main/) 
 
