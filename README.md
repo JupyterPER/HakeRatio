@@ -32,11 +32,11 @@ All source code is distributed under [the MIT license](https://choosealicense.co
 ### Analytical Exploration and Real Data Applications (6 Notebooks)
 
 - [Jupyter/1.1.HypergeometricFunctions.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/1.1.HypergeometricFunctions.ipynb)
-- [Jupyter/2.1.Sage-HakeRatio-AnalyticPdf.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HakeRatio-AnalyticPdf.ipynb)
-- [Jupyter/2.1.Sage-HinkleyMarsaglia.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HinkleyMarsaglia.ipynb)
+- [Jupyter/2.1.Sage-HakeRatio-plotsPdf.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HakeRatio-PlotsPdf.ipynb)
+- [Jupyter/2.1.Sage-HakeRatio-HinkleyMarsaglia.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HakeRatio-HinkleyMarsaglia.ipynb)
 - [Jupyter/2.2.Sage-HakeRatio-AnalyticMarsagliaPhamGia.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.2.Sage-HakeRatio-AnalyticMarsagliaPhamGia.ipynb)
 - [Jupyter/2.3.Sage-HakeRatio-RealData.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.3.Sage-HakeRatio-RealData.ipynb)
-- [Jupyter/3.1.AnalyticallyMellinlntegral.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.1.AnalyticallyMellinlntegral.ipynb)
+- [Jupyter/3.1.AnalyticallyMellinlntegral.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.1.AnalyticallyMellinIntegral.ipynb)
 
 
 The notebooks focus on interactive explorations of Hake ratio analytic forms and related hypergeometric functions. They also include a real data application and SageMath CAS verifications of presented analytic relations. 
@@ -47,7 +47,7 @@ The notebooks focus on interactive explorations of Hake ratio analytic forms and
 
 - [Jupyter/3.1.Python-HakeRatio-CharFun-Moments.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.1.Python-HakeRatio-CharFun-Moments.ipynb)
 - [Jupyter/3.1.Python-Ratio-Mellin-DEChebyshev.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.1.Python-Ratio-Mellin-DEChebyshev.ipynb)
-- [Jupyter/3.2.MTB-RatioCharFun-Algorithms-Builtin-Integrators.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.MTB-RatioCharFun-Algorithms-Builtin-Integrators.ipynb)
+- [Jupyter/3.2.MTB-RatioCharFun-Algorithms-Builtin-Integrators.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.MTB-RatioCharFun-Algorithms-BuiltIn-Integrators.ipynb)
 - [Jupyter/3.2.MTB-RatioCharFun-Algorithms-IntSum.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.MTB-RatioCharFun-Algorithms-IntSum.ipynb)
 - [Jupyter/3.2.Python-RatioCharFun-Algorithms.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.Python-RatioCharFun-Algorithms.ipynb)
 - [Jupyter/3.3.MTB-2DCharFun-Example.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-2DCharFun-Example.ipynb)
