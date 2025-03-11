@@ -51,7 +51,7 @@ The notebooks focus on interactive explorations of Hake ratio analytic forms and
 - [Jupyter/3.2.MTB-RatioCharFun-Algorithms-IntSum.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.MTB-RatioCharFun-Algorithms-IntSum.ipynb)
 - [Jupyter/3.2.Python-RatioCharFun-Algorithms.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.2.Python-RatioCharFun-Algorithms.ipynb)
 - [Jupyter/3.3.MTB-2DCharFun-Example.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-2DCharFun-Example.ipynb)
-- [Jupyter/3.3.MTB-HakeRatio-Example.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-HakeRatio-Example.ipynb)
+- [Jupyter/3.3.MTB-HakeRatio-Example.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-HakeRatio-Example .ipynb)
 - [Jupyter/3.3.MTB-RatioCharFun-Examples.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.3.MTB-RatioCharFun-Examples.ipynb)
 
 The notebooks present our explorations of proposed algorithms for ratio distributions, including the Hake ratio and other examples. Implementations span Python and MATLAB (MTB), showcasing built-in integrators, custom algorithms, and illustrative examples.
