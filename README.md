@@ -65,7 +65,7 @@ The notebooks present our explorations of proposed algorithms for ratio distribu
 - [Jupyter/4.1.NumStudy2B-MTB-BuiltCC.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy2B-MTB-BuiltCC.ipynb)
 - [Jupyter/4.1.NumStudy2C-MTB-Built_TRCC.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy2C-MTB-Built_TRCC.ipynb)
 - [Jupyter/4.1.NumStudy3-Py-DE_CC_Analytic.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.1.NumStudy3-Py-DE_CC_Analytic.ipynb)
-- [Jupyter/4.2.NumStudy-Summary.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.2.NumStudy-Summary.ipynb)
+- [Jupyter/4.2.NumStudy-Summary.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/4.2.NumStudy-Py-Summary.ipynb)
 
 The notebooks present a numerical study of proposed built-in and custom algorithms for Hake ratio distribution using MATLAB and Python. The Hake ratio also provides closed analytical forms of distribution functions to assess method accuracy in the numerical study.
 
