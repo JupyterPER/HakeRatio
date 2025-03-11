@@ -32,8 +32,8 @@ All source code is distributed under [the MIT license](https://choosealicense.co
 ### Analytical Exploration and Real Data Applications (6 Notebooks)
 
 - [Jupyter/1.1.HypergeometricFunctions.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/1.1.HypergeometricFunctions.ipynb)
-- [Jupyter/2.1.Sage-HakeRatio-AnalyticPdf.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HakeRatio-AnalyticPdf.ipynb)
-- [Jupyter/2.1.Sage-HinkleyMarsaglia.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HinkleyMarsaglia.ipynb)
+- [Jupyter/2.1.Sage-HakeRatio-plotsPdf.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HakeRatio-PlotsPdf.ipynb)
+- [Jupyter/2.1.Sage-HakeRatio-HinkleyMarsaglia.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.1.Sage-HakeRatio-HinkleyMarsaglia.ipynb)
 - [Jupyter/2.2.Sage-HakeRatio-AnalyticMarsagliaPhamGia.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.2.Sage-HakeRatio-AnalyticMarsagliaPhamGia.ipynb)
 - [Jupyter/2.3.Sage-HakeRatio-RealData.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/2.3.Sage-HakeRatio-RealData.ipynb)
 - [Jupyter/3.1.AnalyticallyMellinlntegral.ipynb](https://nbviewer.org/github/JupyterPER/HakeRatio/blob/main/Jupyter/3.1.AnalyticallyMellinlntegral.ipynb)
