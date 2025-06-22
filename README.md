@@ -1,4 +1,4 @@
-## Probability distributions and calculations for Hake's ratio statistics in measuring effect size
+## Novel computational approaches for ratio distributions with an application to Hake’s ratio in effect size measurement
 *a data storage for a research paper with supplementary materials - software, notebooks*
 
 by **Jozef Hanč, Martina Hančová, Dominik Borovský**  
@@ -6,15 +6,14 @@ by **Jozef Hanč, Martina Hančová, Dominik Borovský**
 
 ### Abstract of the paper
 
-Ratio statistics and distributions play a crucial role in various fields, including linear regression, metrology, nuclear physics, operations research, econometrics, biostatistics, genetics, and engineering. In this work, we examine the statistical properties and probability calculations of the Hake normalized gain as a measure of effect size and educational effectiveness in physics education. Leveraging existing knowledge about the Hake ratio as a ratio of normal variables and utilizing open data science tools, we developed two novel computational approaches for computing ratio distributions.
+Ratio statistics and distributions are fundamental in various disciplines, including linear regression, metrology, nuclear physics, operations research, econometrics, biostatistics, genetics, and engineering. In this work, we introduce two novel computational approaches for evaluating ratio distributions using open data science tools and modern numerical quadratures. The first approach employs 1D double exponential quadrature of the Mellin convolution with/without barycentric interpolation, which is a very fast and efficient quadrature technique. The second approach utilizes 2D vectorized Broda-Khan numerical inversion of characteristic functions. It offers broader applicability by not requiring knowledge of PDFs or the independence of ratio constituents. 
 
-Our pilot numerical study demonstrates the speed, accuracy, and reliability of calculating ratio distributions through (1) DE quadrature with/without barycentric interpolation, a very quick and efficient quadrature method, and (2) a 2D vectorized numerical inversion of characteristic functions, which offers broader applicability by not requiring knowledge of PDFs or the independence of ratio constituents. 
-
-These numerical explorations not only deepen the understanding of the Hake ratio's distribution but also showcase the efficiency, precision, and versatility of our proposed methods, making them highly suitable for fast data analysis based on exact probability ratio distributions. This capability has potential applications in multidimensional statistics and uncertainty analysis in metrology, where precise and reliable data handling is essential.
+The pilot numerical study, conducted in the context of Hake’s ratio - a widely used measure of effect size and educational effectiveness in physics education - demonstrates the proposed methods’ speed, accuracy, and reliability. The analytical and numerical explorations also provide more clarifying insight into the theoretical and empirical properties of Hake’s ratio distribution. The proposed methods appear promising in a robust framework for fast and exact ratio distribution computations beyond normal random variables, with potential applications in multidimensional statistics and uncertainty analysis in metrology, where precise and reliable data handling is essential.
 
 ## Research paper 
 
-The paper was presented as a PROBASTAT 2024 conference paper and was submitted to [Statistical Papers](https://link.springer.com/journal/362). The modified (improved) pre-print is available at <[https://arxiv.org/abs/2411.12938](https://arxiv.org/abs/2411.12938)>.
+The paper was presented as a PROBASTAT 2024 conference paper and was published in [Statistical Papers](https://link.springer.com/journal/362) with full open access at 
+[https://link.springer.com/article/10.1007/s00362-025-01717-7](https://link.springer.com/article/10.1007/s00362-025-01717-7).
 
 ## Software [![render in nbviewer](figures/nbviewer_badge.svg)](https://nbviewer.org/github/JupyterPER/HakeRatio/tree/main/) 
 
