@@ -86,7 +86,7 @@ The numerical integration component has been extended from the original C implem
 The current implementation supports:
 
 - finite-interval integration on (a,b) using the tanh–sinh transformation
-- nonoscillatory semi-infinite integration on (a,oo) using the exp-sing transformation
+- nonoscillatory semi-infinite integration on (a,oo) using the exp-sinh transformation
 - nonoscillatory whole-line integration on (-oo,oo), using the sinh-sinh transformation
 - oscillatory semi-infinite integration on (a,oo) using Ooura’s Fourier-type DE transformation
 
