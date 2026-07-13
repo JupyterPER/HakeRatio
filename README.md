@@ -78,6 +78,40 @@ The notebooks present a numerical study of proposed built-in and custom algorith
 
 These notebooks are auxiliary and are used in previous notebooks to streamline calculations.
 
+
+### Current Status of Double-Exponential Quadrature and HPC Implementation
+
+The numerical integration component has been extended from the original C implementation of Takuya Ooura’s [INTDE2 package](https://www.kurims.kyoto-u.ac.jp/~ooura/intde.html) to a unified Python framework for double-exponential (DE) quadrature. The reference implementation is available in `intde2.py`, while `intde2_HPC.py` provides Numba-compiled CPU routines and experimental NVIDIA CUDA backends.
+
+The current implementation supports:
+
+- finite-interval integration on \((a,b)\) using the tanh–sinh transformation,
+  \[
+  x(t)=\frac{a+b}{2}
+  +\frac{b-a}{2}\tanh\!\left(\frac{\pi}{2}\sinh t\right);
+  \]
+
+- nonoscillatory semi-infinite integration on \((a,\infty)\) using
+  \[
+  x(t)=a+\exp\!\left(\frac{\pi}{2}\sinh t\right);
+  \]
+
+- nonoscillatory whole-line integration on \((-\infty,\infty)\), added as an extension of the original INTDE2 package, using
+  \[
+  x(t)=\sinh\!\left(\frac{\pi}{2}\sinh t\right);
+  \]
+
+- oscillatory semi-infinite integration on \((a,\infty)\) using Ooura’s Fourier-type DE transformation.
+
+The implementation preserves the original adaptive control, error estimation, and precomputed work-array structure of INTDE2. The initialization routines generate reusable tables of DE nodes and weights, while the integration routines return both the numerical approximation and an absolute-error estimate. As in the original algorithms, a negative error value indicates that the requested accuracy was not reached before the available precomputed table was exhausted.
+
+For high-performance calculations, the scalar algorithms are compiled with Numba. CPU parallelization is applied across batches of independent integrals through `@njit(parallel=True)` and `prange`. This design is particularly suitable for parameter studies, bootstrap calculations, Monte Carlo simulations, and repeated evaluations of ratio distributions. The Numba implementation has shown speed improvements of approximately two orders of magnitude over the corresponding interpreted Python code in the calculations performed for this project.
+
+Experimental NVIDIA GPU support is also included. The CUDA implementation assigns one complete adaptive integral to each GPU thread; therefore, its main computational benefit is realized when a large number of independent integrals are evaluated simultaneously. Both the CPU and GPU implementations have been tested directly. Prior to testing on physical NVIDIA GPUs, the CUDA kernels were first validated using the Numba CUDA simulator. The GPUs used for direct testing were acquired through funding provided by the projects listed below.
+
+The Python conversion, whole-line extension, and HPC implementation were developed by Jozef Hanč and Martina Hančová in 2025.
+
+
 ## Acknowledgements
 
 This work was supported by the Slovak Research and Development Agency under the Contract 
