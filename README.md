@@ -86,21 +86,8 @@ The numerical integration component has been extended from the original C implem
 The current implementation supports:
 
 - finite-interval integration on \((a,b)\) using the tanh–sinh transformation,
-  \[
-  x(t)=\frac{a+b}{2}
-  +\frac{b-a}{2}\tanh\!\left(\frac{\pi}{2}\sinh t\right);
-  \]
-
 - nonoscillatory semi-infinite integration on \((a,\infty)\) using
-  \[
-  x(t)=a+\exp\!\left(\frac{\pi}{2}\sinh t\right);
-  \]
-
 - nonoscillatory whole-line integration on \((-\infty,\infty)\), added as an extension of the original INTDE2 package, using
-  \[
-  x(t)=\sinh\!\left(\frac{\pi}{2}\sinh t\right);
-  \]
-
 - oscillatory semi-infinite integration on \((a,\infty)\) using Ooura’s Fourier-type DE transformation.
 
 The implementation preserves the original adaptive control, error estimation, and precomputed work-array structure of INTDE2. The initialization routines generate reusable tables of DE nodes and weights, while the integration routines return both the numerical approximation and an absolute-error estimate. As in the original algorithms, a negative error value indicates that the requested accuracy was not reached before the available precomputed table was exhausted.
